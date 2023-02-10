@@ -12,14 +12,14 @@ function swap(el1, el2) {
 function disableSortingBtn(){
     document.querySelector(".bubbleSort").disabled = true;
     document.querySelector(".insertionSort").disabled = true;
-    document.querySelector(".mergeSort").disabled = true;
+    document.querySelector(".selectionSort").disabled = true;
 }
 
 // Enables sorting buttons used in conjunction with disable
 function enableSortingBtn(){
     document.querySelector(".bubbleSort").disabled = false;
     document.querySelector(".insertionSort").disabled = false;
-    document.querySelector(".mergeSort").disabled = false;
+    document.querySelector(".selectionSort").disabled = false;
 }
 
 // Disables size slider used in conjunction with enable, so that we can disable during sorting and enable buttons after it
