@@ -4,3 +4,4 @@
 - Selection Sort
 - Insertion Sort
 
+Click here to preview : https://namita27.github.io/Sorting-Visualizer/
